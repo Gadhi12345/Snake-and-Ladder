@@ -1,10 +1,12 @@
 ﻿using System;
 
-class UC1
+class UC2
 {
     static void Main()
     {
-        int player1 = 0;
-        Console.WriteLine("Player starts at: " + player1);
+        Random random = new Random();
+        int dice = random.Next(1, 7);
+
+        Console.WriteLine("Dice rolled: " + dice);
     }
 }
