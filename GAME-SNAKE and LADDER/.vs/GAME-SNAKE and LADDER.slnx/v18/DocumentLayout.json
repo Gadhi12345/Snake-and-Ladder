@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\SNAKE and LADDER\\GAME-SNAKE and LADDER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD4A4A6-97C2-4B34-AACB-441BB7F2AEBB}|GAME-SNAKE and LADDER\\GAME-SNAKE and LADDER.csproj|d:\\snake and ladder\\game-snake and ladder\\game-snake and ladder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD4A4A6-97C2-4B34-AACB-441BB7F2AEBB}|GAME-SNAKE and LADDER\\GAME-SNAKE and LADDER.csproj|solutionrelative:game-snake and ladder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53DA6D4C-A4CB-380D-5FB6-69CFC1BA6A0F}|GAME-SNAKE and LADDER\\GAME-SNAKE and LADDER.csproj|d:\\snake and ladder\\game-snake and ladder\\game-snake and ladder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DA6D4C-A4CB-380D-5FB6-69CFC1BA6A0F}|GAME-SNAKE and LADDER\\GAME-SNAKE and LADDER.csproj|solutionrelative:game-snake and ladder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "GAME-SNAKE and LADDER\\Program.cs",
               "ToolTip": "D:\\SNAKE and LADDER\\GAME-SNAKE and LADDER\\GAME-SNAKE and LADDER\\Program.cs",
               "RelativeToolTip": "GAME-SNAKE and LADDER\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T06:51:12.044Z",
               "EditorCaption": ""
