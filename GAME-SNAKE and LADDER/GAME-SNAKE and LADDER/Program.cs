@@ -12,22 +12,26 @@ class Game
             int dice = random.Next(1, 7);
             int option = random.Next(0, 3);
 
+            int temp = player1;
+
             switch (option)
             {
                 case 0:
                     break;
                 case 1:
-                    player1 += dice;
+                    temp += dice;
                     break;
                 case 2:
-                    player1 -= dice;
+                    temp -= dice;
                     break;
             }
 
-            if (player1 < 0)
-                player1 = 0;
+            if (temp >= 0 && temp <= 100)
+                player1 = temp;
 
             Console.WriteLine("Position: " + player1);
         }
+
+        Console.WriteLine("Reached 100!");
     }
 }
