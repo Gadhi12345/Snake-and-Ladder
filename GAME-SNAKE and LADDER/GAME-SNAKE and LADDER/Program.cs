@@ -7,26 +7,27 @@ class Game
         int player1 = 0;
         Random random = new Random();
 
-        int dice = random.Next(1, 7);
-        int option = random.Next(0, 3);
-
-        switch (option)
+        while (player1 < 100)
         {
-            case 0:
-                Console.WriteLine("No Play");
-                break;
+            int dice = random.Next(1, 7);
+            int option = random.Next(0, 3);
 
-            case 1:
-                Console.WriteLine("Ladder");
-                player1 += dice;
-                break;
+            switch (option)
+            {
+                case 0:
+                    break;
+                case 1:
+                    player1 += dice;
+                    break;
+                case 2:
+                    player1 -= dice;
+                    break;
+            }
 
-            case 2:
-                Console.WriteLine("Snake");
-                player1 -= dice;
-                break;
+            if (player1 < 0)
+                player1 = 0;
+
+            Console.WriteLine("Position: " + player1);
         }
-
-        Console.WriteLine("Position: " + player1);
     }
 }
