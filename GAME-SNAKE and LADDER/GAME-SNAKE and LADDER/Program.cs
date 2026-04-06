@@ -1,6 +1,6 @@
 ﻿using System;
 
-class UC2
+class Game
 {
     static void Main()
     {
